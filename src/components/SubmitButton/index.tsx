@@ -6,24 +6,20 @@ import {
    SubmitButtonText,
    } from './styles';
 
-   
-   
-   
- 
+  
 
 const SubmitButton: React.FC = (props) => {
  
-  const niel = () =>{
-    
-    props.funcao()
-  }
+const handleButtonProps = () => {
+  props.signInFunction();
+}
 
   return (
-    <SubmitButtonContainer >
-      <TouchableOpacity onPress={ niel }>
-        <SubmitButtonText>Entrar</SubmitButtonText>
+      <TouchableOpacity onPress={handleButtonProps}>
+        <SubmitButtonContainer >
+            <SubmitButtonText>Entrar</SubmitButtonText>
+        </SubmitButtonContainer>
       </TouchableOpacity>
-    </SubmitButtonContainer>
   );
 }
 

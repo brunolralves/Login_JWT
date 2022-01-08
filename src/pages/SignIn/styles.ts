@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const LoginContainer = styled.View`
+export const SignInContainer = styled.View`
  flex:1; 
  align-items:center;
 
@@ -10,7 +10,7 @@ export const LoginContainer = styled.View`
  background-color: #f9f9f9;
 `;
 
-export const LoginInputContainer = styled.View`
+export const SignInInputContainer = styled.View`
   align-items:flex-start;
 
   width:280px;
@@ -20,7 +20,7 @@ export const LoginInputContainer = styled.View`
   
 `;
 
-export const LoginInputArea = styled.TextInput`
+export const SignInInputArea = styled.TextInput`
   background-color:#dfdfdf;
   width:273px;
   height:40px;
@@ -31,7 +31,7 @@ export const LoginInputArea = styled.TextInput`
   margin-bottom: 40px;
 `;
 
-export const LoginInputDescription = styled.Text`
+export const SignInInputDescription = styled.Text`
   color: #000;
   font-size:18px;
   font-weight:bold;
